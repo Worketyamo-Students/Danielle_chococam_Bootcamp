@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+ --pricolor:#3E3232;
+ --defaultfont:1rem;
+ --background:#FFFFFF;
+ --secolor2:#443434;
+--secolor1: #3E3232;
+ --textheadcolor:#020202;
+ --ff:"Poppins", sans-serif;
+ --commande:#DFCECE;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: var(--defaultfont);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.liste{
+    font-family: var(--ff);
+    color:var(--textheadcolor);
+    display: flex;
+    gap: 7rem;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.bouton{
+    font-size: .8rem;
+    padding: 1rem 2rem;
+    border: 1px solid ;
+    background: var(--pricolor);
+    color: #FFFFFF;
+}
+
+.commande{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.commande_text{
+    
+    
+}
+
+.commande h1{
+    font-family: var(--ff);
+}
+
+.commande p{
+font-size: .7rem;
+}
+
+.commande button{
+    padding: 1rem 2rem;
+    color: var(--commande);
+    background: var(--secolor1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
