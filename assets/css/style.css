@@ -9,6 +9,8 @@
  --textheadcolor:#020202;
  --ff:"Poppins", sans-serif;
  --commande:#DFCECE;
+ --colorbor:#FFD93D;
+ --bgform: #DFCECE30;
 }
 
 *{
@@ -51,39 +53,122 @@ header{
 }
 
 .commande{
+    margin: 0 0 5rem 3rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     gap: 5rem;
 }
 
-.commande_text{
-    
-    
-}
-
 .commande h1{
+    margin: 7rem 0 3rem 0;
     font-family: var(--ff);
 }
 
 .commande p{
-font-size: .7rem;
+    color: #000;
+    font-family: var(--ff);
+    padding: 0 0 3rem 0;
+    font-size: 1rem;
 }
 
 .commande button{
+    margin: 5rem 0 0 0;
+    font-size: 1.2rem;
     padding: 1rem 2rem;
     color: var(--commande);
     background: var(--secolor1);
 }
 
+.million{
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--secolor1);
+}
 
+.million h1{
+    font-family: var(--ff);
+    color: #fff;
+    font-size: 3rem;
+}
 
+.million p {
+    font-family: var(--ff);
+    color: #fff;
+    font-size: .7rem;
+}
 
+.produits{
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+    margin: 5rem 3rem;
+}
 
+.produits .produits_gum{
+    border: 1px solid #FFD93D;
+    box-shadow: 0 1rem 1rem 0 #00000040;
 
+}
 
+.produits .produits_mambo {
+    margin: 5rem 0 0;
+    border-bottom-right-radius: 15rem;
+    border-bottom-left-radius: 13rem;
+    border-top-left-radius: 13rem;
+    border-top-right-radius: 15rem;
+    border: 1px solid #FFD93D;
+    box-shadow: 0 1rem 1rem 0 #00000040;
 
+}
 
+.produits .produits_tartinat {
+    border-bottom-right-radius: 30rem;
+    border-bottom-left-radius: 45rem;
+    border-top-left-radius:60rem;
+    border-top-right-radius:60rem;
+    border: 1px solid #FFD93D;
+    box-shadow: 0 1rem 1rem 0 #00000040;
 
+}
 
+.produits .produits_kola {
+    margin: 5rem 0  0;
+    border: 1px solid #FFD93D;
+    box-shadow: 0 1rem 1rem 0 #00000040;
 
+}
+
+.formulaire{
+    height: 30rem;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "";
+    background: var(--bgform);
+}
+
+.formulaire .formulaire_bouton{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    border: .1rem solid;
+    padding: .5rem;
+    width: 15rem;
+    background: var(--secolor2);
+}
+
+.vide{
+    height: 20rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    background: var(--secolor2);
+}
+footer img{
+    width: 25rem;
+}
